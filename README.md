@@ -49,11 +49,12 @@ Toplantı ve Whatsapp ScreenShotları [Doc2.docx](https://github.com/user-attach
 
 - **Ürün Durumu**: Ekran görüntüleri ve ekler:
 
-![image](https://github.com/ZelalDev/OUA_Bootcamp_116/assets/152691825/785e3491-5b52-451d-96b9-a814c95df60b)
 
 [GAME DESIGN DOCUMENT.docx](https://github.com/user-attachments/files/16118960/GAME.DESIGN.DOCUMENT.docx)
 
 [Görev Listesi.docx](https://github.com/user-attachments/files/16118959/Gorev.Listesi.docx)
+
+![image](https://github.com/ZelalDev/OUA_Bootcamp_116/assets/152691825/785e3491-5b52-451d-96b9-a814c95df60b)
 
 
 - **Sprint Review**:
