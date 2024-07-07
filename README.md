@@ -43,9 +43,9 @@ Forgotten Memories, oyuncuları büyüleyici bir Fransız kasabasının atmosfer
 
 -	**Puan tamamlama mantığı:** Proje boyunca toplam tamamlanması gereken 316 puanlık bir backlog bulunmaktadır. Projede üç sprint bulunmaktadır ve ilkine 50 puan ayrılmasına karar verilmiştir ve hedefe ulaşılmıştır.
 
--	**Daily Scrum:** Daily Scrum toplantıları zamansal sebeplerden ötürü müsaitlik durumuna göre Discord veya whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği, Readme'de word olarak tarafımızdan paylaşılmıştır.
+-	**Daily Scrum:** Daily Scrum toplantıları zamansal sebeplerden ötürü müsaitlik durumuna göre Discord veya whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği, Readme'de pdf olarak tarafımızdan paylaşılmıştır.
 
-Toplantı ve Whatsapp ScreenShotları [Doc2.docx](https://github.com/user-attachments/files/16120338/Doc2.docx)
+Toplantı ve Whatsapp ScreenShotları [Screenshots.pdf](https://github.com/user-attachments/files/16120535/Screenshots.pdf)
 
 - **Sprint board update**: Sprint board screenshotları:
 
