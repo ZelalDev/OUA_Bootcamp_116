@@ -58,7 +58,7 @@ Toplantı ve Whatsapp ScreenShotları [Doc2.docx](https://github.com/user-attach
 
 [Görev Listesi.docx](https://github.com/user-attachments/files/16118959/Gorev.Listesi.docx)
 
-![image](https://github.com/ZelalDev/OUA_Bootcamp_116/assets/152691825/785e3491-5b52-451d-96b9-a814c95df60b)
+![image](https://github.com/ZelalDev/OUA_Bootcamp_116/assets/152691825/0660e3b4-b1fa-4c7e-ba99-0a0c654f3850)
 
 
 - **Sprint Review**:
