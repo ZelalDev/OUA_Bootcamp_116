@@ -47,15 +47,13 @@ Toplantı ve Whatsapp ScreenShotları [Doc2.docx](https://github.com/user-attach
 
   <img width="748" alt="image" src="https://github.com/ZelalDev/OUA_Bootcamp_116/assets/152691825/b5d9ae0b-7533-4fbe-ae06-733f68a62ad7">
 
-- **Ürün Durumu**: Ekran görüntüleri:
+- **Ürün Durumu**: Ekran görüntüleri ve ekler:
 
-<img width="719" alt="image" src="https://github.com/ZelalDev/OUA_Bootcamp_116/assets/152691825/1909f6aa-bc50-4dfc-a485-eb35d17298cb">
+![image](https://github.com/ZelalDev/OUA_Bootcamp_116/assets/152691825/785e3491-5b52-451d-96b9-a814c95df60b)
 
+[GAME DESIGN DOCUMENT.docx](https://github.com/user-attachments/files/16118960/GAME.DESIGN.DOCUMENT.docx)
 
-<img width="715" alt="image" src="https://github.com/ZelalDev/OUA_Bootcamp_116/assets/152691825/ddea0c0e-ad3f-4dca-92b6-f66669177415">
-
-
-<img width="698" alt="image" src="https://github.com/ZelalDev/OUA_Bootcamp_116/assets/152691825/41c0726f-ee38-489a-82b0-f5b62e393633">
+[Görev Listesi.docx](https://github.com/user-attachments/files/16118959/Gorev.Listesi.docx)
 
 
 - **Sprint Review**:
