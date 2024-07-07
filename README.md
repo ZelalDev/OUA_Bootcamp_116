@@ -13,7 +13,9 @@ Forgotten Memories
 
 ## Product Backlog URL
 [U116 Unity jira Backlog Board](https://zelall2222.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?assignee=unassigned%2C712020%3A77762945-6a78-400b-8455-ea64bf3e6578&atlOrigin=eyJpIjoiM2FhM2EwNmRjYmE5NDgxZTlkMTdmMDJkNTFjNjhlY2MiLCJwIjoiaiJ9)
+
 [U116 Unity jira Sprint Burndown Chart](https://zelall2222.atlassian.net/jira/software/projects/SCRUM/boards/1/reports/burndown?source=overview&atlOrigin=eyJpIjoiYTVlYzE0MjIyN2UyNGU0OGIzNzRkNzQ5MGJmMTg5NzciLCJwIjoiaiJ9)
+
 [U116 Unity jira Scrum Board](https://zelall2222.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiYzAyYTJlMmI4NWE5NGRhZmE2NDhjNWQ5MTMzNGFmMzYiLCJwIjoiaiJ9)
 
 ## Oyun Açıklaması
