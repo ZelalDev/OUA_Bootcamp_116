@@ -58,8 +58,14 @@ Toplantı ve Whatsapp ScreenShotları [Doc2.docx](https://github.com/user-attach
 
 
 - **Sprint Review**:
+Başta düşünülen oyun fikrinde, zamansal endişeler ve teknik sorunlardan ötürü değişikliğe gidilmiştir. Yeni oyunla birlikte daha sade ve hikaye odaklı bir oyun benimsenmiştir. Bu sebeple, görevlerin aksamından dolayı yeni görevler bir sonraki sprinte aktarılmıştır. Review katılımcıları: Sefa kılıç, Zelal Aydın, Kenan Güzel, Cemal Sezgin, Zehra Çiçek.
 
 - **Sprint Retrospective:**
+  - Takım içindeki görev dağılımıyla ve öncelikli görevlerle ilgili düzenleme yapılması kararı alınmıştır.
+  - Sprint 2 de yoğun bir çalışma temposu edinilecektir.
+  - Yapılan görevlerin test edilmesine ve takımın geriye kalanına geri bildirim sağlanmasına daha çok dikkat edilecektir.
+ 
+  ---
 
 
 
