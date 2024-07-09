@@ -60,6 +60,11 @@ Toplantı ve Whatsapp ScreenShotları [Screenshots.pdf](https://github.com/user-
 
 ![image](https://github.com/ZelalDev/OUA_Bootcamp_116/assets/152691825/0660e3b4-b1fa-4c7e-ba99-0a0c654f3850)
 
+![eASz6E](https://github.com/ZelalDev/OUA_Bootcamp_116/assets/152691825/ec6e0089-ca0e-45de-bfe3-15a61159917d)
+
+![Screenshot_453](https://github.com/ZelalDev/OUA_Bootcamp_116/assets/152691825/1f2a0485-a4e7-4307-9d8a-bc9b184ab18c)
+
+![Screenshot_454](https://github.com/ZelalDev/OUA_Bootcamp_116/assets/152691825/e74a6688-acb4-4c8d-8929-309a1dc6c85d)
 
 - **Sprint Review**:
 Başta düşünülen oyun fikrinde, zamansal endişeler ve teknik sorunlardan ötürü değişikliğe gidilmiştir. Yeni oyunla birlikte daha sade ve hikaye odaklı bir oyun benimsenmiştir. Bu sebeple, görevlerin aksamından dolayı yeni görevler bir sonraki sprinte aktarılmıştır. Review katılımcıları: Sefa kılıç, Zelal Aydın, Kenan Güzel, Cemal Sezgin, Zehra Çiçek.
