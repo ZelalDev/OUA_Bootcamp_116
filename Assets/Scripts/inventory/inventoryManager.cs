@@ -15,7 +15,7 @@ public class inventoryManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+       
     }
 
     // Update is called once per frame
@@ -35,18 +35,18 @@ public class inventoryManager : MonoBehaviour
         }
     }
 
-    public void AddItem(string itemName, int quantity, Sprite itemSprite)
+    public void AddItem(string itemName, int quantity, Sprite itemSprite, string itemDescription)
     {
-        for (int i = 0; i < itemSlot.Length; i++)
+        for (int i = 0; i < itemSlot.Length; i++) 
         {
             if (itemSlot[i].isFull == false)
             {
-                itemSlot[i].AddItem(itemName, quantity, itemSprite);
+                itemSlot[i].AddItem(itemName, quantity, itemSprite, itemDescription);
                 return;
             }
         }
     }
-
+    
     public void DeselectAllSlots()
     {
         for (int i = 0; i < itemSlot.Length; i++)
