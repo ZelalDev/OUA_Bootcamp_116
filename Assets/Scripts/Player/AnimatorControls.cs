@@ -7,8 +7,9 @@ namespace Player
     public class AnimatorControls : MonoBehaviour
     {
         private Animator _anim;
-        [SerializeField] private GameObject _key;
+        private GameObject _key;
         [SerializeField] private TextMeshProUGUI _itemInfoText;
+        [SerializeField] private GameObject _itemHolder; // Item holder referansı
 
         private Outline currentOutline; // Mevcut Outline bileşeni
 
@@ -49,9 +50,7 @@ namespace Player
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
-                        TakeItem();
-                        Destroy(hit.collider.gameObject);
-                        currentOutline = null; // Mevcut Outline bileşeni yok et
+                        TakeItem(hit.collider.gameObject);
                     }
                 }
                 else
@@ -62,6 +61,7 @@ namespace Player
             }
             else
             {
+                _itemInfoText.text = "";
                 RemoveCurrentOutline();
             }
 
@@ -80,9 +80,24 @@ namespace Player
             }
         }
 
-        public void TakeItem()
+        void TakeItem(GameObject item)
         {
-            _key.SetActive(true);
+            // Item'i item holder'a parent olarak ata
+            item.transform.SetParent(_itemHolder.transform);
+
+            // Item'in yerel pozisyonunu ve rotasyonunu ayarla
+            item.transform.localPosition = Vector3.zero;
+            item.transform.localRotation = Quaternion.identity;
+
+            Outline outline = item.GetComponent<Outline>();
+            if (outline != null)
+            {
+                Destroy(outline);
+            }
+
+            _key.SetActive(true); // Anahtar gibi bir şeyin etkinleştirilmesi
+
+            // Burada gerekirse başka işlemler yapılabilir (örneğin, itemin etkileşimini veya bilgilerini güncellemek)
         }
     }
 }
