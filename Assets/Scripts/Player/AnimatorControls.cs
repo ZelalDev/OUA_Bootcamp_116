@@ -6,66 +6,56 @@ namespace Player
 {
     public class AnimatorControls : MonoBehaviour
     {
-        private Animator _anim;
-        [SerializeField] private GameObject _key;
         [SerializeField] private TextMeshProUGUI _itemInfoText;
-        
-        [SerializeField] private string itemName;
-        [SerializeField] private int quantity;
-        [SerializeField] private Sprite sprite;
-        [TextArea]
-        [SerializeField] private string itemDescription;
 
+        [SerializeField] private LayerMask itemLayer;
         private inventoryManager inventoryManager;
-        
+
         void Start()
         {
-            inventoryManager = GameObject.Find("inventoryCanvas").GetComponent<inventoryManager>();
-        }
-        private void Awake()
-        {
-
-            _anim = GetComponent<Animator>();
+            // inventoryManager referansını al
+            GameObject inventoryCanvas = GameObject.Find("inventoryCanvas");
+            if (inventoryCanvas != null)
+            {
+                inventoryManager = inventoryCanvas.GetComponent<inventoryManager>();
+                Debug.Log("inventoryManager initialized: " + (inventoryManager != null));
+            }
+            else
+            {
+                Debug.LogError("inventoryCanvas not found in the scene!");
+            }
         }
 
         private void Update()
         {
-            RaycastSource();
+            RaycastForItem();
         }
 
-        public void TakeItem()
+        void RaycastForItem()
         {
-            _key.SetActive(true);
-        }
-        
-        void RaycastSource()
-        {
-            _anim.SetBool("isPicking", true);
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-
             RaycastHit hit;
-            if(Physics.Raycast(ray, out hit))
+            if (Physics.Raycast(ray, out hit, 5f, itemLayer))
             {
-                if (hit.collider.CompareTag("item"))
+                if (hit.collider.CompareTag("Item"))
                 {
-                    _itemInfoText.text = hit.collider.name;
-                    if (Input.GetKeyDown(KeyCode.E))
+                    var item = hit.collider.GetComponent<Item>();
+                    if (item != null)
                     {
-                        TakeItem();
-                        inventoryManager.AddItem(itemName, quantity, sprite, itemDescription);
-                        Destroy(hit.collider.gameObject);
+                        _itemInfoText.text = item.itemName;
+                        if (Input.GetKeyDown(KeyCode.E))
+                        {
+                            Debug.Log("Item picked up: " + item.itemName);
+                            inventoryManager.AddItem(item.itemName, item.quantity, item.sprite, item.itemDescription);
+                            Destroy(hit.collider.gameObject); // İtemi sahneden kaldır
+                        }
                     }
-                }else _itemInfoText.text = "";
-
+                }
             }
-
-            if (Input.GetKeyUp(KeyCode.E))
+            else
             {
-                _anim.SetBool("isPicking", false);
+                _itemInfoText.text = "";
             }
         }
-
-        
-
     }
 }

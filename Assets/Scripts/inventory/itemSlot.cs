@@ -3,24 +3,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class itemSlot : MonoBehaviour//, IPointerClickHandler
+public class itemSlot : MonoBehaviour
 {
-// item Data //
+    // item Data
     public string itemName;
     public int quantity;
     public Sprite itemSprite;
     public bool isFull;
     public string itemDescription;
     public Sprite emptySprite;
-// item slot //
+
+    // item slot
     [SerializeField] private TMP_Text quantityText;
     [SerializeField] private Image itemImage;
 
-// item description //
+    // item description
     public Image itemDescriptionImage;
     public TMP_Text ItemDescriptionNameText;
     public TMP_Text ItemDescriptionText;
@@ -42,27 +42,16 @@ public class itemSlot : MonoBehaviour//, IPointerClickHandler
         this.itemDescription = itemDescription;
         isFull = true;
 
-        Debug.Log("Adding item: " + this.itemName + ", quantity: " + this.quantity + ", sprite: " + this.itemSprite);
-
         // Update UI text for quantity
         quantityText.text = this.quantity.ToString();
         quantityText.enabled = true;
 
         // Update UI image for item
-        itemImage.sprite = this.itemSprite;
-        
+        itemImage.sprite = itemSprite; 
 
-        // Debug logs for verification
+        Debug.Log("Adding item: " + this.itemName + ", quantity: " + this.quantity + ", sprite: " + this.itemSprite);
         Debug.Log("itemImage.sprite: " + itemImage.sprite);
-        Debug.Log("itemImage is null: " + (itemImage == null));
-        Debug.Log("itemImage.sprite: " + itemDescriptionImage.sprite);
-        Debug.Log("itemImage is null: " + (itemDescriptionImage == null));
-
-        // Add any additional UI update logic here, if needed
     }
-
-
-
 
     public void OnPointerClick(PointerEventData eventData)
     {
@@ -92,5 +81,6 @@ public class itemSlot : MonoBehaviour//, IPointerClickHandler
 
     public void OnRightClick()
     {
+        // Implement right-click functionality if needed
     }
 }

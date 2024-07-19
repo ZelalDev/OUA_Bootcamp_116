@@ -42,10 +42,13 @@ public class inventoryManager : MonoBehaviour
             if (itemSlot[i].isFull == false)
             {
                 itemSlot[i].AddItem(itemName, quantity, itemSprite, itemDescription);
+                Debug.Log("Item added to slot " + i + ": " + itemName);
                 return;
             }
         }
+        Debug.Log("No empty slot found for item: " + itemName);
     }
+
     
     public void DeselectAllSlots()
     {
