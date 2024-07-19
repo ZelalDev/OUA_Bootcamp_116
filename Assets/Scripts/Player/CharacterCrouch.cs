@@ -2,33 +2,40 @@
 
 public class CharacterCrouch : MonoBehaviour
 {
-    public float crouchHeight = 1.0f;
-    public float normalHeight = 2.0f;
-    public float crouchSpeed = 5.0f;
-    private CapsuleCollider characterCollider;
     private bool isCrouching = false;
+    private Animator _anim;
+    private CharacterController _characterController;
 
-    void Start()
+    public float standingHeight = 2.0f;
+    public float crouchHeight = 1.0f;
+    public float crouchCenterY = 0.5f;
+    public float standingCenterY = 1.0f;
+
+    private void Awake()
     {
-        characterCollider = GetComponent<CapsuleCollider>();
+        _anim = GetComponent<Animator>();
+        _characterController = GetComponent<CharacterController>();
     }
 
     void Update()
     {
+        // Eğilme tuşuna basıldığında
         if (Input.GetKeyDown(KeyCode.LeftControl))
         {
             isCrouching = true;
+            _characterController.height = crouchHeight;
+            _characterController.center = new Vector3(_characterController.center.x, crouchCenterY, _characterController.center.z);
         }
+
+        // Eğilme tuşu bırakıldığında
         if (Input.GetKeyUp(KeyCode.LeftControl))
         {
             isCrouching = false;
+            _characterController.height = standingHeight;
+            _characterController.center = new Vector3(_characterController.center.x, standingCenterY, _characterController.center.z);
         }
 
-        float targetHeight = isCrouching ? crouchHeight : normalHeight;
-        characterCollider.height = Mathf.Lerp(characterCollider.height, targetHeight, Time.deltaTime * crouchSpeed);
-
-        Vector3 scale = transform.localScale;
-        scale.y = characterCollider.height / normalHeight;
-        transform.localScale = scale;
+        // Animator parametresini ayarla
+        _anim.SetBool("IsCrouching", isCrouching);   
     }
 }
