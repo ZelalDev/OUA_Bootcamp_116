@@ -58,7 +58,6 @@ Toplantı ve Whatsapp ScreenShotları [Screenshots.pdf](https://github.com/user-
 
 [Görev Listesi.docx](https://github.com/user-attachments/files/16118959/Gorev.Listesi.docx)
 
-![image](https://github.com/ZelalDev/OUA_Bootcamp_116/assets/152691825/0660e3b4-b1fa-4c7e-ba99-0a0c654f3850)
 
 ![eASz6E](https://github.com/ZelalDev/OUA_Bootcamp_116/assets/152691825/ec6e0089-ca0e-45de-bfe3-15a61159917d)
 
@@ -76,5 +75,30 @@ Başta düşünülen oyun fikrinde, zamansal endişeler ve teknik sorunlardan ö
  
   ---
 
+# Sprint 2
+- **Sprint Notları:** Takım olarak proje yönetiminde Jira kullanımına devam edilmektedir. User Story'ler ve görevler product backlog'ların içine yazılmıştır.
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 100 Puan
+
+- **Daily Scrum**: Daily Scrum toplantıları hem Whatsapp üzerinden hem de Discord üzerinden devam etmiştir. Discord'da haftada birkaç gün toplantılar yapılmıştır.
+
+  - **Toplantı ve Whatsapp ScreenShotları**:
+[sprint2_screenshots.pdf](https://github.com/user-attachments/files/16323431/sprint2_screenshots.pdf)
+
+- **Sprint board update**: Sprint board screenshotları:
+  <img width="959" alt="image" src="https://github.com/user-attachments/assets/4c6a3acc-5500-4c56-b53f-3f3ea6e710ee">
+
+  - **Ürün Durumu**: Ekran görüntüleri:
+![IMG-20240721-WA0024](https://github.com/user-attachments/assets/5567302a-a41a-4e5b-9925-9b83980e692a)
+![IMG-20240721-WA0026](https://github.com/user-attachments/assets/532a2525-cfa7-4b2f-ad2a-86b15762d43d)
+![IMG-20240721-WA0025](https://github.com/user-attachments/assets/22412349-0c24-4511-845a-b785a1f7de6c)
 
 
+- **Sprint Review**:
+    - Sprint 2'nin sonunda ekip ile toplanıldı ve Sprint gözden geçirildi. Bütün ekiple beraber projede hangi kısımların bittiği hakkında konuşuldu. Herkes yaptığı işlerden bahsetti. Biten kısımlar hakkında konuşuldu. Genel olarak istenilen amaçlara ulaşıldı. Yaşanan bazı aksaklıklardan dolayı tamamlanamayan görevler bir sonraki sprinte aktarıldı.
+    - Sprint Review katılımcıları: Sefa kılıç, Zelal Aydın, Kenan Güzel, Cemal Sezgin, Zehra Çiçek.
+
+- **Sprint Retrospective:**
+    - Takım üyelerinin gelecek sprintte daha fazla görev alınması gerektiğine ve deadlineların kısaltılmasına karar verildi.
+ 
+---
