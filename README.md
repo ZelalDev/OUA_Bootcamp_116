@@ -80,6 +80,8 @@ Başta düşünülen oyun fikrinde, zamansal endişeler ve teknik sorunlardan ö
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 100 Puan
 
+- **Puan tamamlama mantığı:** Proje boyunca toplam tamamlanması gereken 316 puanlık bir backlog bulunmaktadır. 1. sprintte tamamlanması gereken 50 puanın 50 puanı tamamlanmış olup 2. sprintte 100 puanın tamamlanmasına karar verilmiştir.
+
 - **Daily Scrum**: Daily Scrum toplantıları hem Whatsapp üzerinden hem de Discord üzerinden devam etmiştir. Discord'da haftada birkaç gün toplantılar yapılmıştır.
 
   - **Toplantı ve Whatsapp ScreenShotları**:
